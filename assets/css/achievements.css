@@ -1,0 +1,39 @@
+.achievements-section {
+  /* Radial gradient from the center */
+  background: radial-gradient(circle at center, #0a1d3d 0%, rgba(255, 255, 255, 0.5) 100%);
+  padding: 60px 20px;
+  color: #fff;
+}
+
+
+.achievements-section h2 {
+  font-weight: 700;
+  color: #ffffff;
+}
+
+/* Carousel images */
+.carousel-item img {
+  border-radius: 15px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.4);
+  max-height: 500px;
+  object-fit: cover;
+}
+
+/* Dots (indicators) */
+.carousel-indicators li {
+  background-color: #ffffff;   /* default white */
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+
+.carousel-indicators .active {
+  background-color: #0a66c2;   /* IEEE blue when active */
+}
+
+/* Arrow controls */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-size: 100% 100%;
+  filter: invert(1); /* makes arrows white */
+}

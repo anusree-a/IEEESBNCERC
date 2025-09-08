@@ -1,0 +1,42 @@
+.video-parallax-container {
+    position: relative;
+    height: 400px;   /* match your header height */
+    width: 100%;
+    overflow: hidden;
+}
+
+.video-parallax-container video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;   /* keep video in background */
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+    transition: 1s opacity;
+}
+
+/* 🔹 Overlay for better text visibility */
+.video-parallax-container::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5); /* semi-transparent black */
+    z-index: 1;
+}
+
+/* 🔹 Ensure text stays above overlay */
+.video-parallax-container .container,
+.video-parallax-container section,
+.video-parallax-container h2,
+.video-parallax-container p {
+    position: relative;
+    z-index: 2;
+    color: #fff !important;
+}

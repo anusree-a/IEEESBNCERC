@@ -1,0 +1,178 @@
+figure.snip1253 {
+  font-family: 'Raleway', Arial, sans-serif;
+  color: #fff;
+  position: relative;
+  float: left;
+  overflow: hidden;
+  margin: 10px 1%;
+  min-width: 250px;
+  max-width: 310px;
+  width: 100%;
+  background-color: #ffffff;
+  color: #000000;
+  text-align: left;
+  font-size: 16px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+/* Futuristic Navbar Styles */
+.futuristic-navbar {
+    background: linear-gradient(120deg, #0a1d3d 0%, #174485 100%);
+    border-bottom: 2px solid #305b99;
+    box-shadow: 0 2px 20px rgba(23, 68, 133, 0.38), 0 1px 10px rgba(20, 20, 50, 0.20);
+    color: #fff;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    letter-spacing: 0.5px;
+    backdrop-filter: blur(4px);
+}
+
+.futuristic-navbar .navbar-brand,
+.futuristic-navbar .nav-link {
+    color: #fff !important;
+    text-shadow: 0 0 10px #3a7eef, 0 0 2px #173462;
+    font-family: 'Raleway', 'Arial', sans-serif;
+    transition: color 0.25s cubic-bezier(0.4,0,0.2,1);
+}
+
+.futuristic-navbar .navbar-brand:hover,
+.futuristic-navbar .nav-link:hover {
+    color: #3fe3fa !important;
+    text-shadow: 0 0 18px #00ffea, 0 0 8px #173462;
+}
+
+.futuristic-navbar .navbar-toggler {
+    border-color: #305b99;
+    background: linear-gradient(120deg, #174485 0%, #223e6b 100%);
+}
+
+.futuristic-navbar .dropdown-menu {
+    background: #13193c;
+    border-radius: 10px;
+    border: 1px solid #305b99;
+    box-shadow: 0 4px 17px #17448591;
+}
+
+.futuristic-navbar .dropdown-item {
+    color: #fff;
+    transition: background 0.2s;
+}
+
+.futuristic-navbar .dropdown-item:hover {
+    background: linear-gradient(120deg, #3a7eef 0%, #174485 100%);
+    color: #fff;
+}
+
+
+figure.snip1253 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+figure.snip1253 .image {
+  max-height: 220px;
+  overflow: hidden;
+}
+
+figure.snip1253 img {
+  max-width: 100%;
+  vertical-align: top;
+  position: relative;
+}
+
+figure.snip1253 figcaption {
+  margin: -40px 15px 0;
+  padding: 15px;
+  position: relative;
+  background-color: #ffffff;
+}
+
+figure.snip1253 .date {
+  background-color: #2980b9;
+  top: 15px;
+  color: #fff;
+  left: 15px;
+  min-height: 48px;
+  min-width: 48px;
+  position: absolute;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+figure.snip1253 .date span {
+  display: block;
+  line-height: 24px;
+}
+
+figure.snip1253 .date .month {
+  font-size: 14px;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+figure.snip1253 h3, figure.snip1253 p {
+  margin: 0;
+  padding: 0;
+}
+
+figure.snip1253 h3 {
+  min-height: 50px;
+  margin-bottom: 10px;
+  margin-left: 60px;
+  display: inline-block;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+figure.snip1253 p {
+  font-size: 0.8em;
+  margin-bottom: 20px;
+  line-height: 1.6em;
+}
+
+figure.snip1253 footer {
+  padding: 0 25px;
+  background-color: #20638f;
+  color: #e6e6e6;
+  font-size: 0.8em;
+  line-height: 30px;
+  text-align: right;
+}
+
+figure.snip1253 footer > div {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+figure.snip1253 footer i {
+  color: rgba(255, 255, 255, 0.2);
+  margin-right: 5px;
+}
+
+figure.snip1253 a {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  z-index: 1;
+}
+
+figure.snip1253:hover img, figure.snip1253.hover img {
+  -webkit-transform: scale(1.15);
+  transform: scale(1.15);
+}
+
+img {
+  border-radius: 5px;
+}
+
+img {
+  border-radius: 5px;
+}
+
+section {
+}
+
